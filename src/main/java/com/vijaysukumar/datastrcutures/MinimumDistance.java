@@ -27,7 +27,7 @@ public class MinimumDistance {
                     if (firstString.charAt(i - 1) == secondString.charAt(j - 1)) {
                         matrix[i][j] = matrix[i - 1][j - 1];
                     } else {
-                        matrix[i][j] = Math.min(matrix[i - 1][j - 1], Math.min(matrix[i - 1][j - 1], matrix[i - 1][j])) + 1;
+                        matrix[i][j] = Math.min(matrix[i - 1][j - 1], Math.min(matrix[i][j - 1], matrix[i - 1][j])) + 1;
                     }
                 }
             }
