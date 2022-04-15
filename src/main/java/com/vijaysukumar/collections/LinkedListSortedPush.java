@@ -24,7 +24,7 @@ class LinkedListSortedPush {
         Node head = null;
         for(int i =0; i<numbers.length; i++){
             head = sortedPush(head, numbers[i]);
-            printList(head);
+//            printList(head);
         }
 
         printList(head);
