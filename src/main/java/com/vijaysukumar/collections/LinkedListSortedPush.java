@@ -1,6 +1,5 @@
 package com.vijaysukumar.collections;
 
-import java.io.*;
 import java.util.*;
 
 /*
@@ -10,7 +9,7 @@ import java.util.*;
  * If you need more classes, simply define them inline.
  */
 
-class MyList {
+class LinkedListSortedPush {
     public static void main(String[] args) {
         ArrayList<String> strings = new ArrayList<String>();
         strings.add("Hello, World!");
